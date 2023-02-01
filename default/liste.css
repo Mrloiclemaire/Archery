@@ -1,0 +1,226 @@
+/*****************************************************/
+/****General****/
+*
+
+body
+{
+	background:#e2f6ff url('images/liste.jpg') center no-repeat fixed;
+	background-size: cover; 
+	padding-left:10%;
+	padding-right:10%;
+	font-family:"Arial Rounded MT Bold", Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover
+{
+	color:#ffffff;
+}
+
+/*****************************************************/
+/****Blocs****/
+h2
+{
+	position: absolute;
+	padding:20px;
+	top: 15px;
+	left: 700px;
+	width:800px;
+	height: 60px;
+	background:url('images/bandeau1.png');
+	color: white;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior: url(js/PIE.htc);
+}
+
+
+th, td, tr, table
+{
+	border:1px solid black;
+	border-collapse: collapse;
+	background-color: #d9edff;
+	font-size: 20px;
+}
+
+.bouton
+{
+position: absolute;
+top: 200px;
+left: 880px;
+width: 50px;
+font-family: "Arial Rounded MT Bold", Geneva, sans-serif;	
+color: white;
+
+}
+.instructions
+{
+	position: absolute;
+	top: 130px;
+	left: 690px;
+	background-color: #906933;
+	color: white;
+	text-align: left;
+	width:550px;
+	height: 160px;
+	padding:10px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	
+	behavior: url(js/PIE.htc);
+}
+
+
+.tableau
+{
+
+	Position: absolute;
+	top: 170px;
+	width:80%;
+	height: 75%;
+	margin:left;
+	overflow-y: auto;
+	overflow-x: auto;
+	background:#dfceb4;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	padding:10px;
+	padding-bottom:20px;
+	font-family: "Arial Rounded MT Bold", Geneva, sans-serif;	
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	border:1px solid black;
+}
+.colid
+{
+width:5%;
+text-align: center;
+}
+.collicence
+{
+width:10%;
+text-align: center;
+}
+.colnom
+{
+width:31%;
+}
+.colprenom
+{
+width: 15%;
+}
+.colsam
+{
+width:12%;
+}
+.coldim
+{
+width:12%;
+}
+.colcat
+{
+width:11%;
+text-align:center;
+}
+.colheure
+{
+width:15%;
+}
+
+.infoarcher
+{
+	position: absolute;
+	top: 170px;
+	left: 650px;
+	width:250px;
+	height: 150px;
+	background-color: #906933;
+	color: white;
+	text-align: left;
+	box-shadow: 6px 6px 6px black;
+	padding:10px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	font-family: "Arial Rounded MT Bold", Geneva, sans-serif;
+	behavior: url(js/PIE.htc);
+}
+
+
+.navmenu
+{
+	
+	position: relative;
+	text-align: left;
+	background-color: #bb804a;
+	width:340px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	margin-top:20px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+}
+.navmenu:hover
+{
+background-color: #6e4b16;
+}
+
+.menuaccueil
+{
+	position: absolute;
+	top: 10px;
+	text-align: left;
+	background-color: #906933;
+	color:#ffffff;
+	width:370px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	padding-bottom: 20px;
+	margin-top:10px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	border:1px solid white;
+}
+
+
+/*****************************************************/
+/****Contenu****/
+
+
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table 
+{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+}
+

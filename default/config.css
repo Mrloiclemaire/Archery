@@ -1,0 +1,269 @@
+/*****************************************************/
+/****General****/
+*
+
+body
+{
+	  margin: 0px;
+    padding: 0px;
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-attachment: fixed
+	font-family:Arial Rounded MT, Geneva, sans-serif;
+}
+
+#index{
+background-image: url('images/index.jpg') center no-repeat fixed;
+background-size: cover;
+}
+#archives1
+{
+background-image: url('images/archives.jpeg') center no-repeat fixed;
+}
+
+#inscriptions{
+background-image: url('images/inscriptions.jpg') center no-repeat fixed;
+background-size: cover;
+}
+#compta{
+background-image: url('images/compta.jpg') center no-repeat fixed;
+background-size: cover;
+}
+#liste{
+background-image: url('images/liste.jpg') center no-repeat fixed;
+background-size: cover;
+}
+
+
+
+
+a
+{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover
+{
+	color:#ffffff;
+}
+th, td, table
+{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+.tableau
+{
+	Position: absolute;
+	top: 330px;
+	left: 250px;
+	width:70%;
+	min-width:70%;
+	height: 350px;
+	min-height: 350px;
+	overflow: scroll;
+	background:#dfceb4;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	padding:10px;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;	
+}
+
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+
+h2
+{
+
+	padding:20px;
+	margin:auto;
+	width:1024px;
+	height: auto;
+	background:url('images/bandeau1.png');
+	color: white;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+.clean
+{
+	clear:both;
+}
+
+.center
+{
+	text-align:center;
+}
+input
+{
+	width:150px;
+}
+label
+{
+	width:200px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+/*****************************************************/
+/****Blocs****/
+
+
+aside
+{
+float: left;
+}
+article
+{
+	
+	float: right;
+	background-color: #906933;
+	color: white;
+	text-align: left;
+	width:300px;
+	box-shadow: 6px 6px 6px black;
+	margin-top: 200px;
+	padding:10px;
+	margin-right: 200px;
+	width:330px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+}
+.archives
+{
+	position: left;
+	background-color: #bb804a;
+	color: white;
+	text-align: left;
+	width:300px;
+	box-shadow: 6px 6px 6px black;
+	margin-top: 50px;
+	padding:10px;
+	margin-left: 700px;
+	width:330px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+
+}
+.archives:hover
+{
+background-color: #6e4b16;
+}
+
+
+
+img
+{
+	width: 95%;
+	margin: left;
+	margin-top: 0px;
+	padding: 0px;
+	text-align: left;
+}
+.navmenu
+{
+	
+	text-align: left;
+	background-color: #bb804a;
+	width:340px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	margin-top:20px;
+	box-shadow: 6px 6px 6px black;
+}
+.navmenu:hover
+{
+background-color: #6e4b16;
+}
+.foot
+{
+	
+	position: absolute;
+	top: 730px;
+	text-align: center;
+	background-color: #bb804a;
+	width:80%;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:10px;
+	box-shadow: 6px 6px 6px black;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+}
+.menuaccueil
+{
+	position: absolute;
+	top: 120px;
+	display: inline-block;
+	text-align: left;
+	background-color: #906933;
+	color:#ffffff;
+	width:370px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	padding-bottom: 20px;
+	margin-top:10px;
+	box-shadow: 6px 6px 6px black;
+}
+
+/*****************************************************/
+/****Contenu****/
+.big
+{
+	font-size:1.2em;
+}
+.small
+{
+	font-size:0.7em;
+}
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table td
+{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+}
+.author
+{
+	width:150px;
+	border-right:1px solid #aaaaaa;
+}
+.title_cell
+{
+	width:45%;
+}

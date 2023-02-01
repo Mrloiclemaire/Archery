@@ -1,0 +1,191 @@
+/*****************************************************/
+/****General****/
+*
+
+body
+{
+	background:#e2f6ff url('images/archives.jpg') center no-repeat fixed;
+	background-size: cover; 
+	padding-left:10%;
+	padding-right:10%;
+	font-family:Arial Rounded MT, Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover
+{
+	color:#ffffff;
+}
+table, tr, td
+{
+	border:0px;
+}
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+
+h2
+{
+
+	padding:20px;
+	margin:auto;
+	width:980px;
+	height: auto;
+	background:url('images/bandeau1.png');
+	color: white;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior: url(js/PIE.htc);
+}
+
+.clean
+{
+	clear:both;
+}
+.left
+{
+	text-align:left;
+}
+.center
+{
+	text-align:center;
+}
+input
+{
+	width:150px;
+}
+/*****************************************************/
+/****Blocs****/
+
+aside
+{
+float: left;
+}
+article
+{
+	
+	float: right;
+	background-color: #906933;
+	color: white;
+	text-align: left;
+	width:300px;
+	box-shadow: 6px 6px 6px black;
+	margin-top: 200px;
+	padding:10px;
+	margin-right: 200px;
+	width:330px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+	behavior: url(js/PIE.htc);
+}
+.archives
+{
+	position: left;
+	background-color: #bb804a;
+	color: white;
+	text-align: center;
+	width:250px;
+	box-shadow: 6px 6px 6px black;
+	margin-top: 50px;
+	padding:10px;
+	margin-left: 700px;
+	width:330px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+	behavior: url(js/PIE.htc);
+
+}
+.archives:hover
+{
+background-color: #6e4b16;
+}
+
+.navmenu
+{
+	
+	position: relative;
+	text-align: left;
+	background-color: #bb804a;
+	width:320px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	margin-top:20px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+}
+.navmenu:hover
+{
+background-color: #6e4b16;
+}
+.foot
+{
+	
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	background-color: #bb804a;
+	width:80%;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:10px;
+	box-shadow: 6px 6px 6px black;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+	behavior: url(js/PIE.htc);
+	border:1px solid white;
+}
+.menuaccueil
+{
+	position: absolute;
+	top: 120px;
+	display: inline-block;
+	text-align: left;
+	background-color: #906933;
+	color:#ffffff;
+	width:350px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	padding-bottom: 20px;
+	margin-top:10px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	border:1px solid white;
+}
+
+/*****************************************************/
+/****Contenu****/
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}

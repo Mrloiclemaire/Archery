@@ -1,0 +1,236 @@
+/*****************************************************/
+/****General****/
+*
+
+body
+{
+	background:#e2f6ff url('images/inscriptions.jpg') center no-repeat fixed;
+	background-size: cover; 
+	padding-left:10%;
+	padding-right:10%;
+	font-family:Arial Rounded MT, Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover
+{
+	color:red;
+}
+
+
+td,th, table
+{
+
+border:1px solid black;
+
+border-collapse: collapse;
+text-align:center;
+}
+
+.tableau
+{
+	Position: absolute;
+	top: 170px;
+	bottom:15px;
+	margin-bottom:10px;
+	left:100px;
+	width:85%;
+	min-width:78%;
+	height: 75%;
+	min-height: 48%;
+	overflow-y: auto;
+	white-space : nowrap;
+	background:#dfceb4;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	padding:10px;
+	font-family: Arial Rounded MT Bold, Geneva, sans-serif;	
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	border:1px solid black;
+}
+.colid
+{
+width:10%;
+}
+.colsamedi
+{
+width:10%;
+}
+.coldimanche
+{
+width:10%;
+}
+.coldatelim
+{
+width:10%;
+}
+.colstatut
+{
+width:10%
+}
+.colorganisateur
+{
+width:20%;
+}
+.coldiscipline
+{
+width:10%;
+}
+
+.bouton
+{
+background-color: #906933;
+position: absolute;
+top: 20px;
+left: 60%;
+margin-top:5px;
+margin-left:5px;
+width: 30%;
+height: 10%;
+padding: 15px;
+overflow-y: auto;
+font-family: "Arial Rounded MT Bold", Geneva, sans-serif;	
+color: white;
+box-shadow: 6px 6px 6px black;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+background-color: #906933;
+behavior: url(js/PIE.htc);
+border:1px solid white;
+}
+.bouton1
+{
+position:absolute;
+top:20px;
+left:43%;
+height: 9%;
+padding:15px;
+background-color: black;
+border:1px solid white;
+box-shadow: 6px 6px 6px black;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+padding:10px;
+color: white;
+font-family: Arial Rounded MT Bold, Geneva, sans-serif;
+behavior: url(js/PIE.htc);
+}
+
+
+
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+
+h2
+{
+	position: absolute;
+	padding:20px;
+	top: 15px;
+	left: 700px;
+	width:800px;
+	height: 60px;
+	background:url('images/bandeau1.png');
+	color: white;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior: url(js/PIE.htc);
+}
+
+
+/*****************************************************/
+/****Blocs****/
+label
+{
+	width:200px;
+	display:inline-block;
+	
+}
+
+
+
+.navmenu
+{
+	
+	position: relative;
+	text-align: left;
+	background-color: #bb804a;
+	width:340px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	margin-top:20px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+}
+.navmenu:hover
+{
+background-color: #6e4b16;
+}
+.casetableau:hover
+{
+background-color: #c8c8c8;
+}
+
+
+.menuaccueil
+{
+	position: absolute;
+	top: 10px;
+	text-align: left;
+	background-color: #906933;
+	color:#ffffff;
+	width:370px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:left;
+	padding:10px;
+	padding-bottom: 20px;
+	margin-top:10px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	border:1px solid white;
+}
+
+/*****************************************************/
+/****Contenu****/
+
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+
+.title_cell
+{
+	width:45%;
+}

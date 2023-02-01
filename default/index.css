@@ -1,0 +1,178 @@
+/*****************************************************/
+/****General****/
+*
+
+body
+{
+	background:#e2f6ff url('images/index.jpg') center no-repeat fixed;
+	background-size: cover; 
+	padding-left:10%;
+	padding-right:10%;
+	font-family:Arial Rounded MT, Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover
+{
+	color:#ffffff;
+}
+table, tr, td
+{
+	border:0px;
+}
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+
+.infos
+{
+
+position: absolute;
+top: 400px;
+left:800px;
+
+} 
+#compteur{
+position: absolute;
+right:10px;
+bottom:10px;
+}
+
+h2
+{
+
+	padding:20px;
+	margin:auto;
+	width:980px;
+	height: auto;
+	background:url('images/bandeau1.png');
+	color: white;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior: url(js/PIE.htc);
+}
+
+.clean
+{
+	clear:both;
+}
+.left
+{
+	text-align:left;
+}
+.center
+{
+	text-align:center;
+}
+.image
+{
+float:right;
+padding-right:25px;
+padding-top: 15px;
+}
+
+
+
+
+
+/*****************************************************/
+/****Blocs****/
+
+
+aside
+{
+float: left;
+}
+.article
+{
+	float: right;
+	top: 280px;
+	width:40%;
+	background-color: #906933;
+	color: white;
+	text-align: left;
+	box-shadow: 6px 6px 6px black;
+	padding:10px;
+	padding-bottom: 20px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	font-family: "Arial Rounded MT Bold, Geneva", sans-serif;
+	behavior: url(js/PIE.htc);
+	border:1px solid white;
+}
+
+.navmenu
+{
+	position: relative;
+	text-align: left;
+	background-color: #bb804a;
+	width:95%;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:10px;
+	margin-top:20px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	
+	
+}
+.navmenu:hover
+{
+background-color: #6e4b16;
+}
+
+.menuaccueil
+{
+	position: absolute;
+	top: 120px;
+	text-align: left;
+	background-color: #906933;
+	color:#ffffff;
+	width:370px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:10px;
+	padding-bottom: 20px;
+	padding-right:20px;
+	margin-top:10px;
+	box-shadow: 6px 6px 6px black;
+	behavior: url(js/PIE.htc);
+	border:1px solid white;
+}
+/*****************************************************/
+/****Contenu****/
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table td
+{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+}
+
+

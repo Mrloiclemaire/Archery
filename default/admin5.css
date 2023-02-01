@@ -1,0 +1,125 @@
+/*****************************************************/
+/****General****/
+*
+
+body
+{
+	background:#e2f6ff url('images/admin2.jpg') center no-repeat fixed;
+	background-size: cover; 
+	padding-left:10%;
+	padding-right:10%;
+	font-family:Arial Rounded MT, Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover
+{
+	color:#ffffff;
+}
+
+/*****************************************************/
+/****Blocs****/
+#colid
+{
+width: 7%
+}
+#colorg
+{
+width:20%;
+}
+#coldis{
+width:10%;
+}
+#coldate{
+width:10%
+}
+h2
+{
+
+	padding:20px;
+	margin:auto;
+	width:980px;
+	height: auto;
+	background:url('images/bandeau1.png');
+	color: white;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+	box-shadow: 6px 6px 6px black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	behavior: url(js/PIE.htc);
+}
+
+th,td{
+    border:1px solid black;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+tr,table
+{
+	width: 95%;
+	font-family: "Arial Rounded MT Bold", Geneva, sans-serif;	
+	font-size: 1em;
+	border-collapse: collapse;
+	text-align: center;
+}
+.instructions
+{
+	position: absolute;
+	margin: left;
+	text-align: left;
+	background-color: #e3ffdf;
+	width:75%;
+	height: 290px;
+	padding:10px;
+	font-family: "Arial Rounded MT Bold", Geneva, sans-serif;
+	behavior: url(js/PIE.htc);
+	border:3px solid red;
+}
+
+
+.instructions2
+{
+	position: absolute;
+	top: 420px;
+	margin:left;
+	background-color: #dfe2ff;
+	text-align: left;
+	width:400px;
+	height: 220px;
+	padding:10px;
+	font-family: "Arial Rounded MT Bold", Geneva, sans-serif;
+	behavior: url(js/PIE.htc);
+	border:3px solid red;
+}
+.tableau
+{
+
+	Position: relative;
+	top:10px;
+	margin:left;
+	width:95%;
+	height: 300px;
+	overflow-y: auto;
+	overflow-x: auto;
+	background:#dfceb4;
+	padding:10px;
+	font-family: "Arial Rounded MT Bold", Geneva, sans-serif;	
+	border:1px solid black;
+	border-collapse: collapse;
+	behavior: url(js/PIE.htc);
+	
+	}
+
+
+
+
+
+
+
